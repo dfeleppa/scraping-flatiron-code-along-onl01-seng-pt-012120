@@ -1,6 +1,24 @@
 class Course
  
-  attr_accessor :title, :schedule, :description
+  attr_accessor :competitorId,
+                :competitorName,
+                :firstName,
+                :lastName,
+                :status,
+                :postCompStatus,
+                :gender,
+                :countryShortCode,
+				        :regionalCode,
+				        :regionId,
+				        :regionName,
+				        :divisionId,
+				        :profession,
+				        :affiliateId,
+				        :affiliateName,
+				        :age,
+				        :height,
+				        :weight,
+				        :teamCaptain
  
   @@all = []
  
